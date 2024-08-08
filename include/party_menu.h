@@ -47,6 +47,7 @@ void SpriteCB_BounceConfirmCancelButton(u8 spriteId, u8 spriteId2, u8 animNum);
 void CB2_SelectBagItemToGive(void);
 void CB2_GiveHoldItem(void);
 bool8 FieldCallback_PrepareFadeInFromMenu(void);
+bool8 FieldCallback_PrepareFadeInForTeleport(void);
 void CB2_ReturnToPartyMenuFromFlyMap(void);
 void SetUsedFlyQuestLogEvent(const u8 *healLocCtrlData);
 void CB2_ShowPartyMenuForItemUse(void);
